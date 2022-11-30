@@ -19,3 +19,21 @@ var isUnique = function (array) {
 };
 
 console.log(isUnique([1, 2, 3, 4, 5]));
+
+// LMAOOO the solutions is a lot more simpler!!!
+
+// var isUnique = function(arr) {
+//    var numMap = {};
+  
+//    for (var i = 0; i < arr.length; i++) {
+//      var currentNumber = arr[i];
+  
+//      if (numMap[currentNumber] === true) {
+//        return false;
+//      }
+  
+//      numMap[currentNumber] = true;
+//    }
+  
+//    return true;
+//  };
