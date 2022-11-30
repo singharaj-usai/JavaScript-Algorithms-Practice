@@ -27,9 +27,14 @@ var isAnagram = function(strA, strB) {
     const objBLength = Object.keys(objB).length;
 
     if (objALength === objBLength) {
+        // Create an array of keys in object A
+        // Then check if those keys exist in object B.
+        // Then, check if the values for those keys is the same between objects. 
+        // The .every() method accepts a callback and returns true or false
         return Object.keys(objA).every( key =>
             objB.hasOwnProperty(key) && objB[key] === objA[key]);
     }
+    // Return false here in the case stringA and stringB are different lengths
     return false;
 };
 
