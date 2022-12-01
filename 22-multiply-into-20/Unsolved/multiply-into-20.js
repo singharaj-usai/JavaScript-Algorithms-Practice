@@ -1,5 +1,6 @@
 const multiplyInto20 = function (array) {
   // TODO: Write Your Code Here
+  // The Solved solutions is a lot better T_T
   // The first loop isn't necessary, 
   // I just wanted some practice using objects to map values.
   let arrayMap = {};
